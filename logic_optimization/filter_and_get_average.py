@@ -1,3 +1,5 @@
+import functools as fc
+
 class All:
     def __init__(self, _name, _course, _grade):
         self.name = _name
@@ -14,34 +16,13 @@ arr_all = [All("Sebas", "c#", 11),
                All("Elias", "javascript", 19),
                All("Tilsa", "javascript", 3)]
 
-def remove_duplicate_names():
-    setOfElems = []
-    for elem in arr_all:
-        if elem.name in setOfElems:
-            continue
-        else:
-            setOfElems.append(elem.name)         
-    return setOfElems
-
-def separate(name):
-    lista = []
-    final= list(filter(lambda item: lista.append(item) if name == item.name else False,arr_all))
-    return final
-
-def get_average(list):
-    grades = 0
-    for item in list:
-        grades += item.grade
-    return grades / len(list)
-
-
 def calculate():
-    names = remove_duplicate_names()
+    names = []
+    _ = list(filter(lambda x: names.append(x.name) is None if x.name not in names else False, arr_all))
     for name in names:
-        items = separate(name)
-        print("El promedio de "+name+" es:",get_average(items))
-
-        
+        items = list(filter(lambda item: name == item.name,arr_all))
+        average = fc.reduce(lambda x,y: x+y, map(lambda x: x.grade , items)) / len(items) 
+        print("El promedio de "+name+" es: "+str(average))
 
 if __name__ == '__main__':
     calculate()

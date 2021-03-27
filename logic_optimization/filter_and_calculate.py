@@ -17,6 +17,7 @@ lista = [Traveler("Elias","Lachay",3),
               ]
 
 def remove_duplicate_places():
+    seen = []
     return list(filter(lambda x: seen.append(x.place) is None if x.place not in seen else False, lista))
 
 def get_total_visits_place(place):
