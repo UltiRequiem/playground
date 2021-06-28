@@ -1,3 +1,7 @@
 # Python Virtual Enviroment
 env/*
 venv/*
+
+# Js 
+package-lock.json
+node_modules/
