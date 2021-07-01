@@ -1,6 +1,6 @@
 def run():
     val = int(input('Enter a number: '))
-    print(draw_square(10))
+    print(draw_square(val))
 
 
 def draw_square(number):
