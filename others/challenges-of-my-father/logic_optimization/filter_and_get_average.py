@@ -19,6 +19,7 @@ arr_all = [All("Sebas", "c#", 11),
 def calculate():
     names = []
     _ = list(filter(lambda x: names.append(x.name) is None if x.name not in names else False, arr_all))
+
     for name in names:
         items = list(filter(lambda item: name == item.name,arr_all))
         average = fc.reduce(lambda x,y: x+y, map(lambda x: x.grade , items)) / len(items) 

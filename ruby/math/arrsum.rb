@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 
-array = [123, 321, 12_389]
+array = [1, 2, 3]
 puts array.sum

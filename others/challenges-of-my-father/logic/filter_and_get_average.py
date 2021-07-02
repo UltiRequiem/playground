@@ -4,15 +4,19 @@ class All:
         self.course = _course
         self.grade = _grade
 
-arr_all = [All("Sebas", "c#", 11),
-               All("Tilsa", "python", 15),
-               All("Sebas", "javascript", 16),
-               All("Tilsa", "go", 13),
-               All("Sebas", "Ruby", 12),
-               All("Miriam", "java", 17),
-               All("Miriam", "c++", 14),
-               All("Elias", "javascript", 19),
-               All("Tilsa", "javascript", 3)]
+
+arr_all = [
+    All("Sebas", "c#", 11),
+    All("Tilsa", "python", 15),
+    All("Sebas", "javascript", 16),
+    All("Tilsa", "go", 13),
+    All("Sebas", "Ruby", 12),
+    All("Miriam", "java", 17),
+    All("Miriam", "c++", 14),
+    All("Elias", "javascript", 19),
+    All("Tilsa", "javascript", 3),
+]
+
 
 def remove_duplicate_names():
     setOfElems = []
@@ -20,8 +24,9 @@ def remove_duplicate_names():
         if elem.name in setOfElems:
             continue
         else:
-            setOfElems.append(elem.name)         
+            setOfElems.append(elem.name)
     return setOfElems
+
 
 def separate(name):
     list = []
@@ -29,6 +34,7 @@ def separate(name):
         if name == item.name:
             list.append(item)
     return list
+
 
 def get_average(list):
     grades = 0
@@ -41,9 +47,9 @@ def calculate():
     names = remove_duplicate_names()
     for name in names:
         items = separate(name)
-        print("El promedio de "+name+" es:",get_average(items))
+        print("El promedio de " + name + " es:", get_average(items))
 
-        
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     calculate()
+
