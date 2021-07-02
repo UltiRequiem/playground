@@ -4,6 +4,8 @@
 - [Complete Introduction to Redux](https://dev.to/cenacr007_harsh/complete-introduction-to-redux-2281)
 - [7 GitHub projects essential for every Javascript developer](https://dev.to/ankit01oss/7-github-projects-essential-for-every-javascript-developer-258i)
 - [Deploying a React App to GitHub Pages](https://dev.to/cenacr007_harsh/deploying-a-react-app-to-github-pages-370)
+- [React Class vs. Functional Components](https://betterprogramming.pub/react-class-vs-functional-components-2327c7324bdd)
+- [The Javascript Runtime Environment](https://medium.com/@olinations/the-javascript-runtime-environment-d58fa2e60dd0)
 
 ## Videos to watch
 
