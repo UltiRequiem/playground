@@ -5,7 +5,11 @@ module.exports = {
     es6: true,
   },
   ignorePatterns: ['node_modules'],
-  extends: [ 'airbnb-base', 'prettier', 'eslint:recommended', 'plugin:react/recommended',
+  extends: [
+    'airbnb-base',
+    'prettier',
+    'eslint:recommended',
+    'plugin:react/recommended',
   ],
   parserOptions: {
     ecmaVersion: 2021,

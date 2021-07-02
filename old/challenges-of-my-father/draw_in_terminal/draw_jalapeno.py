@@ -4,9 +4,9 @@ def run():
 
 def draw_rhombus(value, symbol):
     lines = []
-    for i in range(1, value+1):
+    for i in range(value+1):
         line = ""
-        for _ in range(0, i):
+        for _ in range(i):
             line = line + symbol
         lines.append(formater(line, value))
 
@@ -18,8 +18,7 @@ def draw_rhombus(value, symbol):
 
 
 def formater(line, value):
-    val = round((value - len(line))/2)
-    for _ in range(0, val):
+    for _ in range(round((value - len(line))/2)):
         line = " " + line
     return line
 
