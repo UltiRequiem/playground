@@ -12,6 +12,8 @@ I do some exercises every day in:
 - [Deploying a React App to GitHub Pages](https://dev.to/cenacr007_harsh/deploying-a-react-app-to-github-pages-370)
 - [React Class vs. Functional Components](https://betterprogramming.pub/react-class-vs-functional-components-2327c7324bdd)
 - [The Javascript Runtime Environment](https://medium.com/@olinations/the-javascript-runtime-environment-d58fa2e60dd0)
+- [I never understood JavaScript closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
+- [javaScript: Closures and the Call Stack](https://medium.com/@akaphenom/javascript-closures-and-the-call-stack-722ef2c3b5a8)
 
 ## Videos to watch
 
