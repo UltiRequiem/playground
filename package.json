@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "UltiRequiem's Playground",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "start": "node ./javascript/react/basic.jsx"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UltiRequiem/playground.git"

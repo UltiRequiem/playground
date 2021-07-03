@@ -1,14 +1,7 @@
 # frozen_string_literal: true
 
-def factorial(n)
-  return nil if n.negative?
-
-  value = 1
-  while n.positive?
-    value *= n
-    n -= 1
-  end
-  value
+def factorial(num)
+  (1..num).reduce(1, :*)
 end
 
 puts factorial(5)

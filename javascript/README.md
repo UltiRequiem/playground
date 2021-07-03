@@ -20,3 +20,5 @@ I do some exercises every day in:
 ### Readed Articles
 
 - [Introduction to React.js ⚛ and the required JavaScript!](https://dev.to/cenacr007_harsh/introduction-to-react-js-and-the-required-javascript-5coh)
+- [What's the Best Way to Extend Native JavaScript Objects?](https://www.designcise.com/web/tutorial/whats-the-best-way-to-extend-native-javascript-objects)
+- [Why is extending native objects a bad practice?](https://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-bad-practice)
