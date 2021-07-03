@@ -8,4 +8,9 @@ const ada: Programmer = {
   knownFor: ['Mathematics', 'Computing', 'First Programmer'],
 };
 
-console.log(ada);
+const zero: Programmer = {
+  name: 'Zero Requiem',
+  knownFor: ['His Playground'],
+};
+
+console.log(ada, zero);
