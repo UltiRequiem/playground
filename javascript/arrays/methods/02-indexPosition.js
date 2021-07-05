@@ -1,5 +1,6 @@
 const { FRUITS } = require('../data');
 
-const lastElement = FRUITS[FRUITS.length - 1];
+/** @param {Array} arr */
+const lastElement = (arr) => arr[arr.length - 1];
 
-console.log(lastElement);
+console.log(lastElement(FRUITS));

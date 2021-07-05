@@ -1,5 +1,7 @@
 # JavaScript
 
+JavaScript is the world's most popular programming language.
+
 ## Formal Practice
 
 I do some exercises every day in:
