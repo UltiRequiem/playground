@@ -10,7 +10,6 @@ def multiply_all(arr)
   arr.reduce { |sum, n| sum * n }
 end
 
-puts sum_all(NUMBERS)
-puts NUMBERS.sum
+puts sum_all(NUMBERS) # NUMBERS.sum
 
 puts multiply_all(NUMBERS)

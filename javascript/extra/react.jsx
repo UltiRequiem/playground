@@ -1,8 +1,8 @@
 import React from 'react';
 
-const myFirstComponent = () =>{
-  return (<h1>I am a component</h1>);
-}
+const myFirstComponent = () => {
+  return <h1>I am a component</h1>;
+};
 
 const List = () => (
   <ul>
