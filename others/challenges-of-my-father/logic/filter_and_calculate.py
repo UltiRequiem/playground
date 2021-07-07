@@ -1,11 +1,11 @@
 class Traveler:
-    def __init__(self, _name, _place, _count):
-        self.name = _name
-        self.place = _place
-        self.count = _count
+    def __init__(self, name, place, count):
+        self.name = name
+        self.place = place
+        self.count = count
 
 
-list = [
+TRAVELERS = [
     Traveler("Elias", "Lachay", 3),
     Traveler("Sebas", "Lachay", 3),
     Traveler("Myriam", "Lachay", 2),
@@ -18,23 +18,11 @@ list = [
 
 
 def remove_duplicate_places():
-    setOfElems = []
-    for elem in list:
-        if elem.place in setOfElems:
-            continue
-        else:
-            setOfElems.append(elem.place)
-    return setOfElems
+    return set([traveler.place for traveler in TRAVELERS])
 
 
 def get_total_visits_place(place):
-    items = []
-
-    for item in list:
-        if item.place == place:
-            items.append(item)
-
-    return items
+    return [traveler for traveler in TRAVELERS if traveler.place == place]
 
 
 def get_toal_visits(place_list):

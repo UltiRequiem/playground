@@ -14,6 +14,9 @@ I do some exercises every day in:
 - [Deploying a React App to GitHub Pages](https://dev.to/cenacr007_harsh/deploying-a-react-app-to-github-pages-370)
 - [React Class vs. Functional Components](https://betterprogramming.pub/react-class-vs-functional-components-2327c7324bdd)
 - [The Javascript Runtime Environment](https://medium.com/@olinations/the-javascript-runtime-environment-d58fa2e60dd0)
+- [MEAN Stack Quick Guide](https://medium.com/@onejohi/mean-stack-quick-guide-f50351ba56eb)
+- [Express web framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
+- [No-nonsense webpack project](https://medium.com/walkme-engineering/no-nonsense-webpack-project-bdfb79181737)
 
 ## Videos to watch
 
@@ -30,3 +33,4 @@ I do some exercises every day in:
 - [I never understood JavaScript closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
 - [The 7 JS Array Methods you will need](https://medium.com/dailyjs/the-7-js-array-methods-you-will-need-in-2021-a9faa83b50e8)
 - [Understanding module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js)
+- [Building a simple REST API with NodeJS and Express](https://medium.com/@onejohi/building-a-simple-rest-api-with-nodejs-and-express-da6273ed7ca9)
