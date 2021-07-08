@@ -1,55 +1,45 @@
-class All:
+from functools import reduce
+
+
+class Student:
     def __init__(self, _name, _course, _grade):
         self.name = _name
         self.course = _course
         self.grade = _grade
 
 
-arr_all = [
-    All("Sebas", "c#", 11),
-    All("Tilsa", "python", 15),
-    All("Sebas", "javascript", 16),
-    All("Tilsa", "go", 13),
-    All("Sebas", "Ruby", 12),
-    All("Miriam", "java", 17),
-    All("Miriam", "c++", 14),
-    All("Elias", "javascript", 19),
-    All("Tilsa", "javascript", 3),
+STUDENTS = [
+    Student("Sebas", "c#", 11),
+    Student("Tilsa", "python", 15),
+    Student("Sebas", "javascript", 16),
+    Student("Tilsa", "go", 13),
+    Student("Sebas", "Ruby", 12),
+    Student("Miriam", "java", 17),
+    Student("Miriam", "c++", 14),
+    Student("Elias", "javascript", 19),
+    Student("Tilsa", "javascript", 3),
 ]
 
 
-def remove_duplicate_names():
-    setOfElems = []
-    for elem in arr_all:
-        if elem.name in setOfElems:
-            continue
-        else:
-            setOfElems.append(elem.name)
-    return setOfElems
+def remove_duplicate_names(lst):
+    return [item.name for item in lst]
 
 
-def separate(name):
-    list = []
-    for item in arr_all:
-        if name == item.name:
-            list.append(item)
-    return list
+def separate(name, lst):
+    return [item for item in lst if item.name == name]
 
 
-def get_average(list):
+def get_average(lst):
     grades = 0
-    for item in list:
+    for item in lst:
         grades += item.grade
-    return grades / len(list)
+    return grades / len(lst)
 
 
 def calculate():
-    names = remove_duplicate_names()
-    for name in names:
-        items = separate(name)
-        print("El promedio de " + name + " es:", get_average(items))
+    for name in remove_duplicate_names(STUDENTS):
+        print(f"El promedio de {name} es {get_average(separate(name,STUDENTS))}")
 
 
 if __name__ == "__main__":
     calculate()
-

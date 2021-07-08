@@ -1,13 +1,6 @@
-def run():
-    val = int(input("Enter: "))
-    print(get_odds_numbers(val))
-
-
 def get_odds_numbers(maxium):
-    for number in range(1, maxium + 1):
-        if number % 2 != 0:
-            print(number)
+    return [item for item in range(maxium) if item % 2]
 
 
 if __name__ == "__main__":
-    run()
+    print(get_odds_numbers(8))

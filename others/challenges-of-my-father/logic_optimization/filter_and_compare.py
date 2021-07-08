@@ -1,21 +1,18 @@
-import functools
-
-
 class ShoppingCar:
-    def __init__(self, _product, _price, _count):
-        self.product = _product
-        self.price = _price
-        self.count = _count
+    def __init__(self, product, price, count):
+        self.product = product
+        self.price = price
+        self.count = count
 
 
 class Sales:
-    def __init__(self, _product, _count, _percent):
-        self.product = _product
-        self.percent = _percent
-        self.count = _count
+    def __init__(self, product, count, percent):
+        self.product = product
+        self.percent = percent
+        self.count = count
 
 
-array_sales = [
+SALES = [
     Sales("leche", 3, 1),
     Sales("leche", 5, 2),
     Sales("atun", 5, 3),
@@ -25,17 +22,13 @@ array_sales = [
 
 
 def compare(product):
-    sales_list = []
-    for item in array_sales:
-        if product == item.product:
-            sales_list.append(item)
-    return sales_list
+    return [item for item in SALES if product == item.product]
 
 
 def check_disscount(row):
     val = compare(row.product)
     total = row.count * row.price
-    print("Sin Descuento: ", total)
+    print(f"Sin Descuento: {total}")
     for item in val:
         if row.count >= item.count:
             previus_val = row.count * row.price
@@ -50,11 +43,11 @@ def calculate(array_shoppingcar):
 
 
 if __name__ == "__main__":
-    array_shoppingcar = [
+    SHOPPING_CAR = [
         ShoppingCar("leche", 3, 9),
         ShoppingCar("atun", 5.5, 5),
         ShoppingCar("arroz", 3.5, 3),
         ShoppingCar("yogurt", 6, 12),
     ]
 
-    calculate(array_shoppingcar)
+    calculate(SHOPPING_CAR)

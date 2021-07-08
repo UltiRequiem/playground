@@ -2,10 +2,10 @@ import functools
 
 
 class Traveler:
-    def __init__(self, _name, _place, _count):
-        self.name = _name
-        self.place = _place
-        self.count = _count
+    def __init__(self, name, place, count):
+        self.name = name
+        self.place = place
+        self.count = count
 
 
 lista = [
