@@ -8,13 +8,20 @@ The coolest place in C-134.
 
 - [Javascript](./javascript)
 
+  - [arrays](./javascript/arrays/)
+
+  - [closures](./javascript/closures/)
+
+  - [react](./javascript/react/)
+
 - [Python](./python):
 
-  - [math](./python/math)
+  - [closures](./python/closures/)
 
-- [Ruby](./ruby):
+- [Ruby](./ruby)
 
   - [arrays](./ruby/arrays)
+
   - [math](./ruby/math)
 
 - [TypeScript](./typescript)

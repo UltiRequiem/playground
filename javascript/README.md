@@ -25,9 +25,9 @@ I do some exercises every day in:
 - [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 - [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts)
 
-#### Readed Articles
+### Readed Articles
 
-- Closures
+- [Closures](./closures/)
 
   - [Closures and the Call Stack](https://medium.com/@akaphenom/javascript-closures-and-the-call-stack-722ef2c3b5a8)
 
@@ -55,7 +55,7 @@ I do some exercises every day in:
 
   - [React Class vs. Functional Components](https://betterprogramming.pub/react-class-vs-functional-components-2327c7324bdd)
 
-- Arrays:
+- [Arrays](./arrays/):
 
   - [Simplify your JavaScript – Use .map(), .reduce(), and .filter()](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d)
 
