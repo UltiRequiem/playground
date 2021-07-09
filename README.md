@@ -3,12 +3,11 @@
 ![Lines of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/playground?color=blue&label=Total%20Lines)
 [![Python](https://img.shields.io/lgtm/grade/python/g/UltiRequiem/playground.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UltiRequiem/playground/context:python)
 [![Javascript](https://img.shields.io/lgtm/grade/javascript/g/UltiRequiem/playground.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UltiRequiem/playground/context:javascript)
-[![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/UltiRequiem/daily-js-practice/blob/main/LICENSE)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 The coolest place in C-134.
 
-![Wallpaper](./assets/wall.jpg)
+![Wallpaper](./others/assets/wall.jpg)
 
 ## Index
 
@@ -18,20 +17,24 @@ The coolest place in C-134.
 
   - [closures](./javascript/closures/)
 
+  - [math](./javascript/math/)
+
   - [react](./javascript/react/)
 
-- [Python](./python):
+- [Python](./python/):
 
   - [closures](./python/closures/)
 
-- [Ruby](./ruby)
+- [Ruby](./ruby/)
 
-  - [arrays](./ruby/arrays)
+  - [arrays](./ruby/arrays/)
 
-  - [math](./ruby/math)
+  - [math](./ruby/math/)
 
-- [TypeScript](./typescript)
+- [TypeScript](./typescript/)
 
-- [Others](./others):
+- [Others](./others/):
 
-  - [Get GitHub Streak](./others/github-streak)
+  - [Get GitHub Streak](./others/github-streak/)
+
+  - [Assets](./others/assets/)
