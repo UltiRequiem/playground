@@ -1,6 +1,6 @@
 import React from 'react';
 
-const myFirstComponent = () => {
+const MyFirstComponent = () => {
   return <h1>I am a component</h1>;
 };
 
@@ -17,6 +17,7 @@ const App = () => (
   <div>
     <p>Hello World!</p>
     <List />
+    <MyFirstComponent/>
   </div>
 );
 

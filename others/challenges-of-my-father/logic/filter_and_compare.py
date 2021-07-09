@@ -12,7 +12,7 @@ class Sales:
         self.count = _count
 
 
-array_sales = [
+SALES = [
     Sales("leche", 3, 1),
     Sales("leche", 5, 2),
     Sales("atun", 5, 3),
@@ -22,11 +22,7 @@ array_sales = [
 
 
 def compare(product):
-    sales_list = []
-    for item in array_sales:
-        if product == item.product:
-            sales_list.append(item)
-    return sales_list
+    return [item for item in SALES if product == item.product]
 
 
 def check_disscount(row):
@@ -47,11 +43,11 @@ def calculate(array_shoppingcar):
 
 
 if __name__ == "__main__":
-    array_shoppingcar = [
+    SHOPPING_CAR = [
         ShoppingCar("leche", 3, 9),
         ShoppingCar("atun", 5.5, 5),
         ShoppingCar("arroz", 3.5, 3),
         ShoppingCar("yogurt", 6, 12),
     ]
 
-    calculate(array_shoppingcar)
+    calculate(SHOPPING_CAR)

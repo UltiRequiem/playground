@@ -1,10 +1,10 @@
 def run():
-    print(draw_rhombus(8, "*"))
+    draw_rhombus(8, "*")
 
 
 def draw_rhombus(value, symbol):
     lines = []
-    for i in range(value+1):
+    for i in range(value + 1):
         line = ""
         for _ in range(i):
             line = line + symbol
@@ -18,10 +18,10 @@ def draw_rhombus(value, symbol):
 
 
 def formater(line, value):
-    for _ in range(round((value - len(line))/2)):
+    for _ in range(round((value - len(line)) / 2)):
         line = " " + line
     return line
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()
