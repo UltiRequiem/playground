@@ -38,3 +38,13 @@ The coolest place in C-134.
   - [Get GitHub Streak](./others/github-streak/)
 
   - [Assets](./others/assets/)
+
+### Also check
+
+- [UltiRequiem/daily-python-practice](https://github.com/UltiRequiem/daily-python-practice)
+
+- [UltiRequiem/daily-js-practice](https://github.com/UltiRequiem/daily-js-practice)
+
+- [UltiRequiem/daily-go-practice](https://github.com/UltiRequiem/daily-go-practice)
+
+- [UltiRequiem/daily-ruby-practice](https://github.com/UltiRequiem/daily-ruby-practice)
