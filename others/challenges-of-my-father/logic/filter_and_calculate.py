@@ -17,8 +17,8 @@ TRAVELERS = [
 ]
 
 
-def remove_duplicate_places():
-    return set([elem.place for elem in TRAVELERS])
+def remove_duplicate_places(lst):
+    return set([elem.place for elem in lst])
 
 
 def get_total_visits_place(place):
@@ -39,11 +39,10 @@ def get_toal_visits(place_list):
 
 
 def run():
-    places = remove_duplicate_places()
-    for place in places:
-        var = get_total_visits_place(place)
-        var_2, var_3 = get_toal_visits(var)
-        print(var_3, "han ido a", place, var_2, "veces.")
+    for place in remove_duplicate_places(TRAVELERS):
+        total_visits = get_total_visits_place(place)
+        total, name = get_toal_visits(total_visits)
+        print(name, "han ido a", place, total, "veces.")
 
 
 if __name__ == "__main__":

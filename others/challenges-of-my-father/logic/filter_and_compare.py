@@ -1,15 +1,15 @@
 class ShoppingCar:
-    def __init__(self, _product, _price, _count):
-        self.product = _product
-        self.price = _price
-        self.count = _count
+    def __init__(self, product, price, count):
+        self.product = product
+        self.price = price
+        self.count = count
 
 
 class Sales:
-    def __init__(self, _product, _count, _percent):
-        self.product = _product
-        self.percent = _percent
-        self.count = _count
+    def __init__(self, product, count, percent):
+        self.product = product
+        self.percent = percent
+        self.count = count
 
 
 SALES = [
@@ -26,10 +26,9 @@ def compare(product):
 
 
 def check_disscount(row):
-    val = compare(row.product)
     total = row.count * row.price
     print("Sin Descuento: ", total)
-    for item in val:
+    for item in compare(row.product):
         if row.count >= item.count:
             previus_val = row.count * row.price
             total = previus_val - (previus_val * item.percent / 100)
@@ -38,8 +37,7 @@ def check_disscount(row):
 
 def calculate(array_shoppingcar):
     for item in array_shoppingcar:
-        total = check_disscount(item)
-        print(total)
+        print(check_disscount(item))
 
 
 if __name__ == "__main__":
