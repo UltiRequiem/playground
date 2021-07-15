@@ -1,11 +1,8 @@
-from functools import reduce
-
-
 class Student:
-    def __init__(self, _name, _course, _grade):
-        self.name = _name
-        self.course = _course
-        self.grade = _grade
+    def __init__(self, name, course, grade):
+        self.name = name
+        self.course = course
+        self.grade = grade
 
 
 STUDENTS = [
@@ -33,7 +30,8 @@ def get_average(lst):
     grades = 0
     for item in lst:
         grades += item.grade
-    return grades / len(lst)
+
+    return round(grades / len(lst))
 
 
 def calculate():

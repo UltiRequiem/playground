@@ -23,7 +23,6 @@ def remove_duplicate_places():
 
 def get_total_visits_place(place):
     return [traveler for traveler in TRAVELERS if traveler.place == place]
-    return travelers.filter((traveler) => traveler.place === place)
 
 
 def get_toal_visits(place_list):

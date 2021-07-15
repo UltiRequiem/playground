@@ -8,4 +8,4 @@ class ClassHelloWorld extends React.Component {
 
 const ArrowHelloWorld = props => <h1>Hello, {props.name}</h1>;
 
-export default ArrowHelloWorld;
+export  {ArrowHelloWorld,ClassHelloWorld};

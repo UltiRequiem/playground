@@ -37,20 +37,19 @@ def get_total_visits_place(place):
 def get_total(a, b):
     try:
         return a.count + b.count
-    except BaseException:
+    except AttributeError:
         return a + b.count
 
 
 def get_names(a, b):
     try:
         return a.name + ", " + b.name
-    except BaseException:
+    except AttributeError:
         return a + ", " + b.name
 
 
 def run():
-    places = remove_duplicate_places()
-    for place in places:
+    for place in remove_duplicate_places():
         var = get_total_visits_place(place.place)
         total = var[0].count if len(var) == 1 else reduce(get_total, var)
         names = var[0].name if len(var) == 1 else reduce(get_names, var)
