@@ -48,3 +48,7 @@ The coolest place in C-134.
 - [UltiRequiem/daily-go-practice](https://github.com/UltiRequiem/daily-go-practice)
 
 - [UltiRequiem/daily-ruby-practice](https://github.com/UltiRequiem/daily-ruby-practice)
+
+### Interesting general Articles
+
+- [Ignore Patterns Git](https://stackoverflow.com/questions/29820791)
