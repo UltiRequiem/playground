@@ -5,3 +5,5 @@ function copy(file, newPath) {
     err ? console.error(err) : console.log('Done!')
   );
 }
+
+module.exports = copy;
