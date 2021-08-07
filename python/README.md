@@ -18,6 +18,7 @@ I do some exercises every day in:
 - [Python's Instance, Class, and Static Methods Demystified](https://realpython.com/instance-class-and-static-methods-demystified)
 - [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming)
 - [Python Objects and Classes](https://www.programiz.com/python-programming/class)
+- [You should know this when developing python package](https://medium.com/@udiyosovzon/things-you-should-know-when-developing-python-package-5fefc1ea3606)
 
 ### Cool Questions
 

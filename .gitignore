@@ -1,9 +1,10 @@
 # Python Virtual Enviroment
-env/*
-venv/*
+**/env/
+**/venv/
 
-# Js  and ts
-package-lock.json
-node_modules/
-dist/
-build/
+# Node Dependencies
+**/node_modules/
+
+# Builds
+**/dist/
+**/build/
