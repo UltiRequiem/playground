@@ -1,6 +1,6 @@
-type StringArray = Array<string>
-type NumberArray = Array<number>
-type ObjectWithNameArray = Array<{ name: string }>
+type StringArray = string[]
+type NumberArray = number[]
+type ObjectWithNameArray = { name: string }[]
 
 const WORDS: StringArray = ['food', 'about', 'good']
 const NUMBERS: NumberArray = [1, 2, 3, 4, 5]

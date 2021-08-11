@@ -1,4 +1,6 @@
-const getLength = (obj: string | string[]) => obj.length
+function getLength(obj: string | string[]) {
+  return obj.length
+}
 
 console.log(getLength('Hi'))
 console.log(getLength(['Hi', 'World']))
