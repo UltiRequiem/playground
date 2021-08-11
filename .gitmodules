@@ -1,3 +1,6 @@
 [submodule "javascript"]
 	path = javascript
 	url = https://github.com/UltiRequiem/javascript
+[submodule "python"]
+	path = python
+	url = git@github.com:UltiRequiem/python.git
