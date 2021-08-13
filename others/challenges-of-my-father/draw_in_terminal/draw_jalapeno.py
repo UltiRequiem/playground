@@ -2,8 +2,9 @@ def run():
     draw_rhombus(8, "*")
 
 
-def draw_rhombus(value, symbol):
+def draw_rhombus(value: int, symbol: str):
     lines = []
+
     for i in range(value + 1):
         line = ""
         for _ in range(i):
@@ -17,7 +18,7 @@ def draw_rhombus(value, symbol):
         print(line)
 
 
-def formater(line, value):
+def formater(line: str, value: int):
     for _ in range(round((value - len(line)) / 2)):
         line = " " + line
     return line

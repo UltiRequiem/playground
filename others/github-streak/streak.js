@@ -1,4 +1,4 @@
-const { exec } = require('child_process');
+const { exec } = require("child_process");
 
 function getStreak(days) {
   for (let i = 0; i < days; i++) {
