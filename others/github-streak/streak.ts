@@ -1,4 +1,4 @@
-import {exec} from 'child_process';
+import { exec } from "child_process";
 
 function getStreak(days: number) {
   for (let i = 0; i < days; i++) {
