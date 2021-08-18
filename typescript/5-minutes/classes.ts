@@ -16,3 +16,6 @@ class UserAccount {
 
 const user: User = new UserAccount('Murphy', 12)
 console.log(user)
+
+const otherUser: User = new UserAccount("Zero",14)
+console.log(otherUser)
