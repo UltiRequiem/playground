@@ -6,8 +6,12 @@ namespace Numbers
         {
             int a = 18;
             int b = 6;
-            int c = a + b;
-            System.Console.WriteLine(c);
+
+            // Some mathematic operaions
+            System.Console.WriteLine($"The sum of {a} and {b} is {a + b}.");
+            System.Console.WriteLine($"The division of {a} and {b} is {a / b}.");
+            System.Console.WriteLine($"The multiplication of {a} and {b} is {a * b}.");
+            System.Console.WriteLine($"The subtraction of {a} and {b} is {a - b}.");
         }
     }
 }
