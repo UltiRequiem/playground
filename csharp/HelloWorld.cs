@@ -1,9 +1,12 @@
 namespace HelloWorld
 {
-    class Hello {         
+    class Hello
+    {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello World!");
+            string message = "Hello World";
+            string myNick = "Zero";
+            System.Console.WriteLine($"{message}, {myNick}!".Replace(myNick, "Eliaz"));
         }
     }
 }
