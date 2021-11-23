@@ -1,8 +1,8 @@
-type ProgrammerType = {
+interface ProgrammerType {
   name: string;
   age: number;
   knownFor: string[];
-};
+}
 
 class Programmer implements ProgrammerType {
   name: string;
@@ -16,8 +16,10 @@ class Programmer implements ProgrammerType {
   }
 }
 
-function createProgrammer(
-  { name, age, knownFor }: ProgrammerType,
+function createVirtualProgrammer(
+  name: string,
+  age: number,
+  knownFor: string[],
 ): ProgrammerType {
   return { name, age, knownFor };
 }
@@ -28,10 +30,6 @@ const ada: ProgrammerType = new Programmer({
   knownFor: ["Mathematics", "Computing", "First Programmer"],
 });
 
-const zero = createProgrammer({
-  name: "Zero Requiem",
-  age: 14,
-  knownFor: ["His Playground"],
-});
+const zero = createVirtualProgrammer("Zero Requiem", 14, ["His Playground"]);
 
 console.log(ada, zero);
