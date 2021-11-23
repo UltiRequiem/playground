@@ -1,10 +1,12 @@
 # Ruby
 
-A dynamic, open source programming language with a focus on simplicity and productivity.
+A dynamic, open source programming language with a focus on simplicity and
+productivity.
 
 ## Formal Practice
 
-I do some exercises every day in: [UltiRequiem/daily-ruby-practice](https://github.com/UltiRequiem/daily-ruby-practice).
+I do some exercises every day in:
+[UltiRequiem/daily-ruby-practice](https://github.com/UltiRequiem/daily-ruby-practice).
 
 ### Articles to read
 

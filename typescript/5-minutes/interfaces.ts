@@ -1,11 +1,11 @@
 interface User {
-  name: string
-  id: number
+  name: string;
+  id: number;
 }
 
 const hayato: User = {
-  name: 'Hayato',
+  name: "Hayato",
   id: 4848,
-}
+};
 
-console.log(hayato)
+console.log(hayato);
