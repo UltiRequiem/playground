@@ -4,10 +4,8 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            string myName = "Eliaz";
-            string nickname = "Zero";
-            string myLastNames = "Bobadilla Camarena".ToUpper();
-            string myFullName = $"{nickname} Sebastian {myLastNames}".Replace(nickname, myName);
+            var (myName, nickname, myLastNames) = ("Eliaz", "Zero", "Bobadilla Camarena".ToUpper());
+            var myFullName = $"{nickname} Sebastian {myLastNames}".Replace(nickname, myName);
 
             // Common Tradition to put the last names Uppercased
             System.Console.WriteLine($"My name is {myFullName}.");

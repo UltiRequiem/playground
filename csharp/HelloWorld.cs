@@ -4,8 +4,8 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            string message = "Hello World";
-            string myNick = "Zero";
+            var message = "Hello World";
+            var myNick = "Zero";
             System.Console.WriteLine($"{message}, {myNick}!".Replace(myNick, "Eliaz"));
         }
     }

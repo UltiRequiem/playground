@@ -4,8 +4,7 @@ namespace Numbers
     {
         static void Main(string[] args)
         {
-            int a = 18;
-            int b = 6;
+            var (a, b) = (60, 18);
 
             // Some mathematic operaions
             System.Console.WriteLine($"The sum of {a} and {b} is {a + b}.");
