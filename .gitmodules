@@ -4,3 +4,6 @@
 [submodule "python"]
   path = python
   url = git@github.com:UltiRequiem/python.git
+[submodule "react"]
+  path = react
+  url = git@github.com:UltiRequiem/react-playground.git
