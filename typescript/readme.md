@@ -1,5 +1,5 @@
 # TypeScript
 
-> I want to be a TypeScript Magician
+> In my way to become a TypeScript Magician
 
-## Cool Resources
+Check https://github.com/UltiRequiem/UltiRequiem/issues/20
