@@ -3,14 +3,8 @@ interface Point {
   y: number;
 }
 
-class VirtualPoint implements Point {
-  x: number;
-  y: number;
-
-  constructor(x: number, y: number) {
-    this.x = x;
-    this.y = y;
-  }
+class Point {
+  constructor(public x: number, public y: number) {}
 }
 
 function logPoint(p: Point) {
@@ -26,4 +20,4 @@ logPoint(point3);
 const rect = { x: 33, y: 3, width: 30, height: 80 };
 logPoint(rect);
 
-logPoint(new VirtualPoint(13, 56));
+logPoint(new Point(13, 56));
