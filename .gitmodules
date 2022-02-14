@@ -1,9 +1,12 @@
 [submodule "javascript"]
-  path = javascript
-  url = git@github.com:UltiRequiem/javascript.git
+	path = javascript
+	url = git@github.com:UltiRequiem/javascript-playground.git
 [submodule "python"]
-  path = python
-  url = git@github.com:UltiRequiem/python.git
+	path = python
+	url = git@github.com:UltiRequiem/python-playground.git
 [submodule "react"]
-  path = react
-  url = git@github.com:UltiRequiem/react-playground.git
+	path = react
+	url = git@github.com:UltiRequiem/react-playground.git
+[submodule "rust"]
+	path = rust
+	url = git@github.com:UltiRequiem/rust-playground.git
